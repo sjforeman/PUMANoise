@@ -14,15 +14,15 @@ import pumanoise as pn
 
 NU21 = 1420.4 # MHz
 
-Ddish = 5.6 # m
+Ddish = 3.9 # m
 
 
 class MyTel(pn.RadioTelescope):
     """Specs approximating small test telescope.
 
-    The precise specs are 2 20m-wide cylinders with 16 feeds each, 1.2m apart,
+    The precise specs are 2 10m-wide cylinders with 16 feeds each, 1.2m apart,
     with T_recv = 50K. I'll approximate this with a square-packed 6x6 array of dishes with
-    physical area 24m^2 (~5.6m diameter), observing over half the sky with the
+    physical area 12m^2 (~3.9m diameter), observing over half the sky with the
     PUMA values for omtcoupling, skycoupling, and optical efficiency.
 
     Parameters
